@@ -40,7 +40,7 @@
 <meta property="og:image" content="https://mosil.space/post/android-studio-4-0-release/fragment-gallery.png">
 <meta property="og:image" content="https://mosil.space/post/android-studio-4-0-release/shrinker-smart-editor.png">
 <meta property="article:published_time" content="2020-06-02T17:00:00.000Z">
-<meta property="article:modified_time" content="2020-06-05T05:57:00.491Z">
+<meta property="article:modified_time" content="2020-06-06T15:20:16.825Z">
 <meta property="article:author" content="Mosil">
 <meta property="article:tag" content="android studio">
 <meta property="article:tag" content="ide">
@@ -245,7 +245,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-06-05 13:57:00" itemprop="dateModified" datetime="2020-06-05T13:57:00+08:00">2020-06-05</time>
+                <time title="修改時間：2020-06-06 23:20:16" itemprop="dateModified" datetime="2020-06-06T23:20:16+08:00">2020-06-06</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -298,10 +298,11 @@
 <h3 id="Motion-Editor-動態編輯器"><a href="#Motion-Editor-動態編輯器" class="headerlink" title="Motion Editor (動態編輯器)"></a>Motion Editor (動態編輯器)</h3><p><a href="https://developer.android.com/training/constraint-layout/motionlayout" target="_blank" rel="noopener" title="Motion Layout"><em>MotionLayout</em></a> 是一個 <em>ConstrantLayout</em> 的子物件。如其名所示，它比起 <em>ConstrantLayout</em> 來說，就是多了讓佈局裡的物件能動起來的屬性設定。</p>
 <p>它被新增在 <em>androidx.constraintlayout:constraintlayout</em> 這個函式庫的 2.0 以後的版本。</p>
 <p>而 Motion Editor 就是讓我們在編輯器上，可以播放觀看到該物件在佈局裡的移動變化，如下圖所示：</p>
-<p><img data-src="/post/android-studio-4-0-release/motion_animation_preview.gif" alt="motion_animation_preview">)<br>(<a href="https://developer.android.com/studio/releases#4-0-0-motion-editor" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
+<p><img data-src="/post/android-studio-4-0-release/motion_animation_preview.gif" alt="motion_animation_preview"> </p>
+<p>(<a href="https://developer.android.com/studio/releases#4-0-0-motion-editor" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
 <p>這個工具也提供我們能將原本的 <em>constraint layout</em> ，直接轉換成 <em>motion layout</em> ，想了解更的話可以直接看<a href="https://developer.android.com/studio/write/motion-editor" target="_blank" rel="noopener" title="Motion Editor">開發文件</a>哦！</p>
 <h3 id="Layout-Inspector-佈局監控工具"><a href="#Layout-Inspector-佈局監控工具" class="headerlink" title="Layout Inspector (佈局監控工具)"></a>Layout Inspector (佈局監控工具)</h3><p>直接讓我們可以視窗中看到正執行在設備上的畫面，我們透過這個工具的操作，可以看到當前佈局的樹狀階層、呈現畫面以及該佈局屬性，還能直接指回 xml 檔裡。<br><img data-src="/post/android-studio-4-0-release/live-layout-inspector.png" alt="live-layout-inspector"></p>
-<p>同時，還有一個視覺上的新功能： <em>3D view</em> ，讓我們能在視窗裡用滑鼠操作畫面，以 3D 呈現的方式轉動，監看各佈局元件的階層關係。<br><img data-src="/post/android-studio-4-0-release/live-layout-inspector-3d-view.png" alt="live-layout-inspector-3d-view"></p>
+<p>同時，還有一個視覺上的新功能：<em>3D view</em> ，讓我們能在視窗裡用滑鼠操作畫面，以 3D 呈現的方式轉動，監看各佈局元件的階層關係。<br><img data-src="/post/android-studio-4-0-release/live-layout-inspector-3d-view.png" alt="live-layout-inspector-3d-view"></p>
 <h3 id="Layout-Validation-佈局驗證"><a href="#Layout-Validation-佈局驗證" class="headerlink" title="Layout Validation (佈局驗證)"></a>Layout Validation (佈局驗證)</h3><p>Layout validation 是讓我們在設計、撰寫 layout 檔時，可以將當前畫面，同時模擬呈現在不同裝置設定的視覺化工具。<br><img data-src="/post/android-studio-4-0-release/layout-validation.png" alt="layout-validation"></p>
 <p>除了可以自定義模擬裝置規格外，這邊還有四種配置讓我們選擇呈現</p>
 <ul>
@@ -312,7 +313,8 @@
 </ul>
 <p>有興趣深入了解的朋友，可以直接進到<a href="https://developer.android.com/studio/debug/layout-inspector#layout-validation" target="_blank" rel="noopener">開發文件</a>看看。</p>
 <h2 id="關於編譯"><a href="#關於編譯" class="headerlink" title="關於編譯"></a>關於編譯</h2><p>這個部份是要在 Android Gradle plugin 4.0.0 以後的版本，搭配 Android Studio 4.0 與其之後的版本才能使用。</p>
-<h3 id="Build-Analyzer-建置分析工具"><a href="#Build-Analyzer-建置分析工具" class="headerlink" title="Build Analyzer (建置分析工具)"></a>Build Analyzer (建置分析工具)</h3><p>開發後建置到行動裝置上的等待，一直是讓人不耐的。這個新的分析工具提供了一份視覺化與列表，讓我們可以從中去了解、去診斷是哪個環節特別費時，進而去最佳化或是調整可能沒有弄好的設定。<br><img data-src="/post/android-studio-4-0-release/build-attribution-critical-path.png" alt="build-attribution-critical-path">)<br>(<a href="https://developer.android.com/studio/releases#4-0-0-build-analyzer" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
+<h3 id="Build-Analyzer-建置分析工具"><a href="#Build-Analyzer-建置分析工具" class="headerlink" title="Build Analyzer (建置分析工具)"></a>Build Analyzer (建置分析工具)</h3><p>開發後建置到行動裝置上的等待，一直是讓人不耐的。這個新的分析工具提供了一份視覺化與列表，讓我們可以從中去了解、去診斷是哪個環節特別費時，進而去最佳化或是調整可能沒有弄好的設定。<br><img data-src="/post/android-studio-4-0-release/build-attribution-critical-path.png" alt="build-attribution-critical-path"> </p>
+<p>(<a href="https://developer.android.com/studio/releases#4-0-0-build-analyzer" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
 <h3 id="Java-8-library-desugaring-in-D8-and-R8"><a href="#Java-8-library-desugaring-in-D8-and-R8" class="headerlink" title="Java 8 library desugaring in D8 and R8"></a>Java 8 library desugaring in D8 and R8</h3><p>簡言之，在只有 D8 以及 R8 可用的 Android Studio 4.0 及 Android Gradle plugin 4.0.0 以後的新版本中，開始全面支援 Java 8 的原生特性啦。在不用更動 <code>minimum API level</code> 的狀況下，根據建議調整模組裡的 <code>build.gradle</code> 設定後，就可以使用，且向下相容於舊版本的 Android。</p>
 <figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">android &#123;</span><br><span class="line">  defaultConfig &#123;</span><br><span class="line">    <span class="comment">// Required when setting minSdkVersion to 20 or lower</span></span><br><span class="line">    multiDexEnabled <span class="keyword">true</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  compileOptions &#123;</span><br><span class="line">    <span class="comment">// Flag to enable support for the new language APIs</span></span><br><span class="line">    coreLibraryDesugaringEnabled <span class="keyword">true</span></span><br><span class="line">    <span class="comment">// Sets Java compatibility to Java 8</span></span><br><span class="line">    <span class="keyword">sourceCompatibility</span> JavaVersion.VERSION_1_8</span><br><span class="line">    <span class="keyword">targetCompatibility</span> JavaVersion.VERSION_1_8</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">dependencies</span> &#123;</span><br><span class="line">  coreLibraryDesugaring <span class="string">'com.android.tools:desugar_jdk_libs:1.0.4'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>(來源為 <a href="https://developer.android.com/studio/releases#4-0-0-desugar" target="_blank" rel="noopener">release notes</a>)</p>
@@ -364,7 +366,8 @@
 <p><img data-src="/post/android-studio-4-0-release/fragment-gallery.png" alt="fragment-gallery"></p>
 </li>
 </ul>
-<h3 id="Smart-editor-features-for-code-shrinker-rules"><a href="#Smart-editor-features-for-code-shrinker-rules" class="headerlink" title="Smart editor features for code shrinker rules"></a>Smart editor features for code shrinker rules</h3><p>R8 下的混淆/壓縮(shrinker)的提示<br>  <img data-src="/post/android-studio-4-0-release/shrinker-smart-editor.png" alt="">)<br>  (<a href="https://developer.android.com/studio/releases#4-0-0-smart-code-shrinker-rules" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
+<h3 id="Smart-editor-features-for-code-shrinker-rules"><a href="#Smart-editor-features-for-code-shrinker-rules" class="headerlink" title="Smart editor features for code shrinker rules"></a>Smart editor features for code shrinker rules</h3><p>R8 下的混淆/壓縮(shrinker)的提示<br>  <img data-src="/post/android-studio-4-0-release/shrinker-smart-editor.png" alt="shrinker-smart-editor"> </p>
+<p>  (<a href="https://developer.android.com/studio/releases#4-0-0-smart-code-shrinker-rules" target="_blank" rel="noopener">圖片來源為 Release Note</a>) </p>
 <h3 id="支援-Kotlin-DSL-script-Kotlin-原生劇本"><a href="#支援-Kotlin-DSL-script-Kotlin-原生劇本" class="headerlink" title="支援 Kotlin DSL script (Kotlin 原生劇本)"></a>支援 Kotlin DSL script (Kotlin 原生劇本)</h3><p>Android Gradle plugin 開始支援 Kotlin DSL build script 檔(*.kts)。更新後，在一些 Android Studio 的版本裡，除了在 Project Structure 的視窗與建構劇本能快速修正外，也能讀、寫 Kotlin build script (Kotlin 建構劇本) 檔案。</p>
 <h3 id="Expanded-camera-support-in-Android-emulator"><a href="#Expanded-camera-support-in-Android-emulator" class="headerlink" title="Expanded camera support in Android emulator"></a>Expanded camera support in Android emulator</h3><p>這個是針對要搭配 Android 11 映像檔的模擬器才能使用的特性</p>
 <ul>
