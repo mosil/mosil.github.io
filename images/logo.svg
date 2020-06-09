@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xml:space="preserve"
-   enable-background="new 0 0 512 512"
-   viewBox="0 0 512 512"
-   height="512px"
-   width="512px"
-   y="0px"
-   x="0px"
-   id="NexT"
-   version="1.1"><metadata
-     id="metadata3390"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-     id="defs3388" /><path
-     style="fill:#222222;fill-opacity:1"
-     id="path3384"
-     d="M 256.4,25.8 56.4,141.3 56,371.5 255.6,486.2 455.6,370.7 456,140.5 Z m 92.6,328.8 -18.4,10.7 -18.6,-11 0,0 -112,-142.3 0,142.6 -18.4,10.7 -18.6,-11 0,-197 18.5,-10.6 18.5,10.8 0,0 112,144.5 0,-144.6 18.5,-10.6 18.5,10.8 z" /></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-mosil.space">
+      <rect width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="mosil.space" clip-path="url(#clip-mosil.space)">
+    <rect width="800" height="800" fill="#073042"/>
+    <g id="Group_119" data-name="Group 119" transform="translate(1690.099 802.479) rotate(148)" opacity="0.25">
+      <circle id="Ellipse_118" data-name="Ellipse 118" cx="78.905" cy="78.905" r="78.905" transform="translate(819.052 1051.686) rotate(-83)" stroke-width="3.241" stroke="#3ddc84" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path id="Path_318" data-name="Path 318" d="M315.619,157.809A157.809,157.809,0,1,0,269.4,269.4" transform="translate(731.12 1120.388) rotate(-83)" fill="none" stroke="#d7effe" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.241"/>
+      <path id="Path_319" data-name="Path 319" d="M473.429,236.715A235.972,235.972,0,0,0,404.1,69.332c-92.444-92.443-242.323-92.443-334.767,0s-92.44,242.322,0,334.763,242.323,92.443,334.767,0" transform="translate(643.187 1189.088) rotate(-83)" fill="none" stroke="#f86734" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.241"/>
+      <path id="Path_320" data-name="Path 320" d="M789.048,394.524A393.3,393.3,0,0,0,673.5,115.553c-154.073-154.071-403.872-154.071-557.945,0s-154.068,403.869,0,557.94A393.291,393.291,0,0,0,394.523,789.046" transform="matrix(-0.174, -0.985, 0.985, -0.174, 586.964, 1440.024)" fill="none" stroke="#f86734" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.241"/>
+      <path id="Path_321" data-name="Path 321" d="M631.237,315.619A314.635,314.635,0,0,0,538.8,92.442C415.538-30.814,215.7-30.814,92.44,92.442s-123.254,323.1,0,446.352,323.1,123.257,446.357,0" transform="translate(555.255 1257.788) rotate(-83)" fill="none" stroke="#f86734" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.241"/>
+      <path id="Path_322" data-name="Path 322" d="M946.856,473.428A471.948,471.948,0,0,0,808.195,138.663c-184.888-184.884-484.647-184.884-669.534,0s-184.882,484.644,0,669.528A471.95,471.95,0,0,0,473.427,946.856" transform="matrix(-0.174, -0.985, 0.985, -0.174, 522.96, 1531.431)" fill="none" stroke="#f86734" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.241"/>
+    </g>
+    <path id="Path_39" data-name="Path 39" d="M1921.035,456.226l66.572-115.306a13.847,13.847,0,0,0-23.983-13.849l-67.412,116.764c-51.557-23.524-109.449-36.625-171.232-36.625s-119.672,13.1-171.229,36.625l-67.412-116.764a13.847,13.847,0,0,0-23.983,13.849l66.572,115.306C1414.612,518.4,1336.421,634.15,1324.98,770.887h800C2113.542,634.15,2035.351,518.4,1921.035,456.226ZM1540.876,656.891a33.315,33.315,0,1,1,33.315-33.315A33.354,33.354,0,0,1,1540.876,656.891Zm368.211,0a33.315,33.315,0,1,1,33.315-33.315A33.353,33.353,0,0,1,1909.087,656.891Z" transform="translate(-1325.225 29.09)" fill="#3ddc84"/>
+    <text id="_mosil.space_" data-name="{mosil.space}" transform="translate(10 243)" fill="#fff" font-size="100" font-family="NotoMono, Noto Mono"><tspan x="0" y="0">{mosil.space}</tspan></text>
+  </g>
+</svg>
