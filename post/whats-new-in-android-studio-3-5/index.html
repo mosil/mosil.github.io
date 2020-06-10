@@ -22,27 +22,31 @@
     var CONFIG = {"hostname":"mosil.space","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="本篇…只是單純想記錄自己的設定而已 :P">
+  <meta name="description" content="Android Studio 於 2019.08 正式將 3.5 轉為穩定版，編譯的效能算是讓個人有感的提升，整理一下官方釋出的文章與影像出來，讓大家評估是否要在剛釋出的現在升級嘍 :)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Android Studio 的 Logcat 顏色調整">
-<meta property="og:url" content="https://mosil.space/post/android-studio-logcat-color/index.html">
+<meta property="og:title" content="What&#39;s New In Android Studio 3.5">
+<meta property="og:url" content="https://mosil.space/post/whats-new-in-android-studio-3-5/index.html">
 <meta property="og:site_name" content="莫希爾手札">
-<meta property="og:description" content="本篇…只是單純想記錄自己的設定而已 :P">
+<meta property="og:description" content="Android Studio 於 2019.08 正式將 3.5 轉為穩定版，編譯的效能算是讓個人有感的提升，整理一下官方釋出的文章與影像出來，讓大家評估是否要在剛釋出的現在升級嘍 :)">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://mosil.space/post/android-studio-logcat-color/logcat.png">
-<meta property="og:image" content="https://mosil.space/post/android-studio-logcat-color/as_logcat.png">
-<meta property="og:image" content="https://mosil.space/post/android-studio-logcat-color/as_foreground.png">
-<meta property="og:image" content="https://mosil.space/post/android-studio-logcat-color/as_logcat_color.png">
-<meta property="article:published_time" content="2019-06-11T10:40:11.000Z">
-<meta property="article:modified_time" content="2020-06-03T00:01:59.681Z">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/what">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/apply-code.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/run.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/apply-change-and-restart-activity.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/apply-code-changes.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/memory-recommand.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/memory-recommand-actions.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/memory-recommand-setting.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/data-sharing.png">
+<meta property="og:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/android_studio_editor_xml_set_from_android.png">
+<meta property="article:published_time" content="2019-08-24T08:40:57.000Z">
+<meta property="article:modified_time" content="2019-08-24T13:43:08.510Z">
 <meta property="article:author" content="Mosil">
 <meta property="article:tag" content="android studio">
-<meta property="article:tag" content="logcat">
-<meta property="article:tag" content="ide">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://mosil.space/post/android-studio-logcat-color/logcat.png">
+<meta name="twitter:image" content="https://mosil.space/post/whats-new-in-android-studio-3-5/what">
 
-<link rel="canonical" href="https://mosil.space/post/android-studio-logcat-color/">
+<link rel="canonical" href="https://mosil.space/post/whats-new-in-android-studio-3-5/">
 
 
 <script id="page-configurations">
@@ -55,7 +59,7 @@
   };
 </script>
 
-  <title>Android Studio 的 Logcat 顏色調整 | 莫希爾手札</title>
+  <title>What's New In Android Studio 3.5 | 莫希爾手札</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141263323-1"></script>
     <script>
@@ -209,7 +213,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://mosil.space/post/android-studio-logcat-color/">
+    <link itemprop="mainEntityOfPage" href="https://mosil.space/post/whats-new-in-android-studio-3-5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -222,7 +226,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Android Studio 的 Logcat 顏色調整
+          What's New In Android Studio 3.5
         </h1>
 
         <div class="post-meta">
@@ -231,16 +235,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">發表於</span>
+              
 
-              <time title="創建時間：2019-06-11 18:40:11" itemprop="dateCreated datePublished" datetime="2019-06-11T18:40:11+08:00">2019-06-11</time>
+              <time title="創建時間：2019-08-24 16:40:57 / 修改時間：21:43:08" itemprop="dateCreated datePublished" datetime="2019-08-24T16:40:57+08:00">2019-08-24</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-06-03 08:01:59" itemprop="dateModified" datetime="2020-06-03T08:01:59+08:00">2020-06-03</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -269,24 +267,77 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p><img data-src="/post/android-studio-logcat-color/logcat.png" alt="logcat"></p>
-<p>本篇…<br>只是單純想記錄自己的設定而已 :P</p>
+        <p><img data-src="what's_new_in_android_studio_3.5.jpg" alt="what&#39;s_new_in_android_studio_3.5"></p>
+<p>Android Studio 於 2019.08 正式將 3.5 轉為穩定版，編譯的效能算是讓個人有感的提升，整理一下官方釋出的文章與影像出來，讓大家評估是否要在剛釋出的現在升級嘍 :)</p>
 <a id="more"></a>
 
-<h1 id="顏色"><a href="#顏色" class="headerlink" title="顏色"></a>顏色</h1><ul>
-<li>ASSERT: <font color="#EDAEFF">#EDAEFF</font></li>
-<li>DEBUG: <font color="#73BBA6">#73BBA6</font></li>
-<li>ERROR: <font color="#FF6B68">#FF6B68</font></li>
-<li>INFO: <font color="#14BAEC">#14BAEC</font></li>
-<li>VERBOSE: <font color="#BBBBBB">#BBBBBB</font></li>
-<li>WARN: <font color="#FFC66D">#FFC66D</font></li>
+<h1 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h1><p>在 <a href="https://youtu.be/OJ3K90FpQ6A" target="_blank" rel="noopener">What’s New in Android Studio 3.5</a> 的影像中，列出了下面六點做為開場</p>
+<ul>
+<li><p>Project Marble comes to conclusion</p>
+</li>
+<li><p>Improvements on memory usage</p>
+</li>
+<li><p>Incremental annotation processing for Kotlin</p>
+</li>
+<li><p>Apply Changes</p>
+</li>
+<li><p>Chrome OS support</p>
+</li>
+<li><p>Intellij 2019.1</p>
+</li>
 </ul>
-<h1 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h1><p>打開 Android Studio 的 Preferences(on mac) 或是 Settings(on Windows)，在搜尋框裡打上<code>logcat</code>就可以看到類似如下的畫面</p>
-<p><img data-src="as_logcat.png" alt="as_logcat"></p>
-<p>右邊有個<code>Foreground</code>如果像下圖一樣無法點擊的話</p>
-<p><img data-src="/post/android-studio-logcat-color/as_foreground.png" alt="as_foreground">)(as_foreground.png)</p>
-<p>只要將下方的<code>Inherit values from:</code>的勾勾取消即可調整。</p>
-<p><img data-src="/post/android-studio-logcat-color/as_logcat_color.png" alt="as_logcat_color"></p>
+<p>從上面來看幾個項目，大概就是 Android Studio 的底層升到 Intellij 2019.1 的版本、Android Studio 終於可以在 Chrome OS 上執行了 (當然還是有些<a href="https://developer.android.com/studio#Requirements" target="_blank" rel="noopener">裝置跟版本的限制</a>)、優化了 Kotlin(KAPT) 的支援與編譯速度，當然還有每次都一定會有的是屬於整體性的效能優化。</p>
+<p>個人認為可以特別說再拉出來說的部份就是 <code>Project Marble</code>，Project Marble 是 Anrdoid Studio team 從 Android Studio 3.3 開始針對 IDE 的持續優化計劃，這部份可以從今年度(2019) 的 <a href="https://youtu.be/8rfvfojtRss" target="_blank" rel="noopener" title="What&#39;s New in Android Development Tools (Google I/O&#39;19)">Google I/O’19</a> 影像中看到更多。其中幾個特點也大概如下提出: </p>
+<ul>
+<li><p>Apply Changes</p>
+<p>在這個版本以 <a href="https://developer.android.com/studio/run#apply-changes" target="_blank" rel="noopener" title="Apply Changes">Apply Changes</a>，取代過去的 Instant Run 。在操作上讓大家比較有感的就是分成三個按鈕，讓開發者自行依當下要編譯、部署 app 的層級選擇執行。 <img data-src="apply-code.png" alt="apply-code"></p>
+<ul>
+<li>Run: 重新編譯、部署所有改動，並重啟應用程式。<br><img data-src="run.png" alt="run"></li>
+<li>Apply Changes: 嘗試以當次改動的 resource 與程式碼做為編譯，然後僅重啟 activity 而不是重啟整個應用程式。</li>
+</ul>
+<p><img data-src="apply-change-and-restart-activity.png" alt="apply-change-and-restart-activity"></p>
+<ul>
+<li>Apply Code Changes: 嘗試以當次改動的 resource 與程式碼做為編譯，然後不會有任何重啟動作。</li>
+</ul>
+<p><img data-src="apply-code-changes.png" alt="apply-code-changes"></p>
+</li>
+<li><p>推薦記憶體設定</p>
+<p><img data-src="memory-recommand.png" alt="memory-recommand"></p>
+<p>自動化的推薦當前 Android Sutdio 如何設定記憶體的使用更流暢，可以直接套用，</p>
+<p><img data-src="memory-recommand-actions.png" alt="memory-recommand-actions"></p>
+<p>或是進入設定頁自行設定。</p>
+<p><img data-src="memory-recommand-setting.png" alt="memory-recommand-setting"></p>
+</li>
+<li><p>IDE Data Sharing<br>各位開發者可以打開這個項目，讓 IDE 自動在背景搜集一些項目，像是使用的資源、發生的異常報告傳回給 Android Studio Team，以利他們後續的修正與優化。</p>
+<p><img data-src="data-sharing.png" alt="data-sharing"></p>
+</li>
+</ul>
+<p>其餘像是 Layout 編輯器的優化、Data Buiding、或是像可以兼容多版本並存的 NDK，細節也請各位自行到參考資料中詳見嘍！(有種偷懶的感覺…</p>
+<p>最後再推薦兩個東西給各位看倌</p>
+<ul>
+<li>有關 Android Studio 新特性的 Demo 可以在今年 <a href="https://youtu.be/8rfvfojtRss?t=1548" target="_blank" rel="noopener">IO 的片段</a>看到。</li>
+<li><a href="https://github.com/google/iosched" target="_blank" rel="noopener">Google I/O App 的原始碼</a> 大概有隔了幾年沒再更新過了，今年的版本有再更新出來，是個很好的學習範本。</li>
+</ul>
+<h1 id="已知的-Issues"><a href="#已知的-Issues" class="headerlink" title="已知的 Issues"></a>已知的 Issues</h1><ul>
+<li><p>在編輯 Layout 的 XML 檔時，若是有使用 <code>Code &gt; Reformat code</code> 重整程式碼習慣的人，可能會發現出來的結果跟自己原本的預期不同，原因是在 3.5 的預設跟之前的版本不同。</p>
+<p>請到環境設定裡去改一下設定即可</p>
+<blockquote>
+<p>環境設定</p>
+<p>Windows: File &gt; Settings</p>
+<p>macOS: Android Studio &gt; Preferences</p>
+</blockquote>
+<ul>
+<li>開啟設定，到 <code>Editor &gt; Code Style &gt; XML</code></li>
+<li>在右邊的子視窗的右上有個小小的 <code>Set from</code> 將 <code>Predfined Style</code> 設定為 <code>Android</code> 即可<br><img data-src="android_studio_editor_xml_set_from_android.png" alt="android_studio_editor_xml_set_from_android"></li>
+</ul>
+</li>
+</ul>
+<h1 id="Refrence"><a href="#Refrence" class="headerlink" title="Refrence"></a>Refrence</h1><ul>
+<li>Android Developers Blog:<br><a href="https://android-developers.googleblog.com/2019/08/android-studio-35-project-marble-goes.html" target="_blank" rel="noopener">https://android-developers.googleblog.com/2019/08/android-studio-35-project-marble-goes.html</a></li>
+<li>Android Developers Youtube:<br><a href="https://youtu.be/OJ3K90FpQ6A" target="_blank" rel="noopener">https://youtu.be/OJ3K90FpQ6A</a></li>
+<li>Android Studio Release Notes:<br><a href="https://developer.android.com/studio/releases/#3-5-0" target="_blank" rel="noopener">https://developer.android.com/studio/releases/#3-5-0</a></li>
+<li>What’s New in Android Development Tools (Google I/O’19):<br><a href="https://youtu.be/8rfvfojtRss" target="_blank" rel="noopener">https://youtu.be/8rfvfojtRss</a></li>
+</ul>
 
     </div>
 
@@ -297,8 +348,6 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/android-studio/" rel="tag"># android studio</a>
-              <a href="/tags/logcat/" rel="tag"># logcat</a>
-              <a href="/tags/ide/" rel="tag"># ide</a>
           </div>
 
         
@@ -307,12 +356,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/post/flutter-init-ios/" rel="prev" title="Flutter 之於 iOS 的設置">
-      <i class="fa fa-chevron-left"></i> Flutter 之於 iOS 的設置
+    <a href="/post/android-studio-logcat-color/" rel="prev" title="Android Studio 的 Logcat 顏色調整">
+      <i class="fa fa-chevron-left"></i> Android Studio 的 Logcat 顏色調整
     </a></div>
       <div class="post-nav-item">
-    <a href="/post/whats-new-in-android-studio-3-5/" rel="next" title="What's New In Android Studio 3.5">
-      What's New In Android Studio 3.5 <i class="fa fa-chevron-right"></i>
+    <a href="/post/whats-new-in-android-studio-4-0/" rel="next" title="Android Studio 4.0 的新玩意兒">
+      Android Studio 4.0 的新玩意兒 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -373,7 +422,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#顏色"><span class="nav-number">1.</span> <span class="nav-text">顏色</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#設定"><span class="nav-number">2.</span> <span class="nav-text">設定</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Features"><span class="nav-number">1.</span> <span class="nav-text">Features</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#已知的-Issues"><span class="nav-number">2.</span> <span class="nav-text">已知的 Issues</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Refrence"><span class="nav-number">3.</span> <span class="nav-text">Refrence</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -572,7 +621,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'mosil.github.io',
       owner       : 'mosil',
       admin       : ['mosil'],
-      id          : '3343e0173dd1b156da376c77b6b490cb',
+      id          : '5f42461ca1870a6c39fecd383c2295b6',
         language: 'zh-TW',
       distractionFreeMode: true
     });
