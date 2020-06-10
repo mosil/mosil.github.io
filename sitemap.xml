@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mosil.space/post/whats-new-in-android-studio-3-5/</loc>
+    
+    <lastmod>2020-06-10T04:17:05.441Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mosil.space/post/whats-new-in-android-studio-4-0/</loc>
     
     <lastmod>2020-06-10T04:04:07.086Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://mosil.space/post/android-studio-logcat-color/</loc>
     
     <lastmod>2020-06-03T00:01:59.681Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mosil.space/post/whats-new-in-android-studio-3-5/</loc>
-    
-    <lastmod>2019-08-24T13:43:08.510Z</lastmod>
     
   </url>
   
